@@ -1,8 +1,0 @@
-const form = document.getElementById("contactForm");
-const message = document.getElementById("formMessage");
-
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  message.textContent = "Thanks! Your message form is ready — connect it to email later.";
-  form.reset();
-});
